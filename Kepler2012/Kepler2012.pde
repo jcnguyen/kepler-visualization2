@@ -15,7 +15,6 @@
 
 // Import libraries
 import processing.opengl.*;
-PFont label = createFont("Helvetica", 96);
 
 // Display size
 int xScreen = 1000;
@@ -101,13 +100,12 @@ ModeButton tempSort = new ModeButton(48,615,20,20, "Sort by Temperature");
 boolean mouseClicked = false;
 
 void setup() {
-  size(xScreen, yScreen, OPENGL);
+  size(1000, 800, OPENGL);
   background(0);
   smooth();  
-  textFont(label, 96);
   
   // Populate the "galaxy"
-  getPlanets(sketchPath + "/data/20150504KOI.csv", true);
+  getPlanets(sketchPath() + "/data/20150504KOI.csv", true);
   println(planets.size());
   addMarkerPlanets();
   updatePlanetColors();
@@ -291,7 +289,6 @@ void draw() {
   pushMatrix();
   fill(255, 100 * flatness);
   rotateZ(PI/2);
-  textFont(label);
   textSize(12);
   textAlign(LEFT);
   text(round(yMin), -textWidth(str(yMin)), 0);
@@ -511,5 +508,3 @@ void mouseClicked() {
     yMin = minTemp;
   }
 }
-
-
