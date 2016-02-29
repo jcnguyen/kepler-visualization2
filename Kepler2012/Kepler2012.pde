@@ -11,6 +11,13 @@
  The displayed data is limited to exoplanets with less than 100 
  earth radii. 
  
+ https://github.com/jcnguyen/kepler-visualization2
+ * @author Jennifer Nguyen
+ * @version February 2016
+ *
+ * @author Huu Le and Jennifer Nguyen
+ * @version May 2015
+ 
  */
 
 // Import libraries

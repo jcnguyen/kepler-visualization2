@@ -1,25 +1,16 @@
 /*
-
- Kepler Visualization - Button Class
- 
- @ASTR051 Squirtle Squad
- @May 2015
- Simple buttons class. 
-
+ * Button.pde
+ *   Simple buttons class. 
  */
 
 class Button {
-  
-  // Standard Parameters
   float x;
   float y;
   float xSize;
   float ySize;
   boolean showDesc = true;
-  
-  String description; //Description for button
-  
-  // Constructor
+  String description; // button description
+
   Button(float x, float y, float xSize, float ySize, String description) {
     this.x = x;
     this.y = y;
@@ -51,7 +42,7 @@ class Button {
     return abs(xOther-x) <= xSize/2 && abs(yOther-y) <= ySize/2;
   }
   
-   // Draw: Very Basic
+  // Draw: Very Basic
   void render() {
     rectMode(CENTER);
     noFill();
