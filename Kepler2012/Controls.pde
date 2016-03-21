@@ -1,21 +1,16 @@
-/*
-
- Kepler Visualization - Controls Class
- 
- GUI controls added by Lon Riesberg, Laboratory for Atmospheric and Space Physics
- lon@ieee.org
- 
- @Jer Thorp
- @April 2012
- Current release consists of a vertical slider for zoom control.  The slider can be toggled
- on/off by pressing the 'c' key.
- Slide out controls that map to the other key bindings is currently being implemented and
- will be released soon.
- 
- @ASTR051 Squirtle Squad
- @May 2015
- Replaced key bindings with on-screen buttons. Still able to toggle slider with 'c' key.
- 
+/**
+ * Controls.pde
+ *
+ * GUI controls. Originally added by Lon Riesberg (lon@ieee.org) of the 
+ * Laboratory for Atmospheric and Space Physics. Modified by Huu Le and Jennifer
+ * Nguyen. Replaced key bindings with on-screen buttons. Users are still able 
+ * to toggle slider with 'c' key.
+ *
+ * @author Huu Le and Jennifer Nguyen
+ * @version May 2015
+ *
+ * @author Jer Thorp
+ * @version April 2012
  */
 
 class Controls {

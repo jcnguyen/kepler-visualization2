@@ -1,14 +1,12 @@
-/*
-
- Kepler Visualization - SidePanel Class
- 
- @ASTR051 Squirtle Squad
- @May 2015
- This display is designed specifically to show the exoplanet data. 
- Modification will be needed if this class is to
- be used in a different project.
- SidePanel will be implemented in CENTER rectMode. 
- 
+/**
+ * SidePanel.pde
+ *
+ * This display is designed specifically to show the exoplanet data. 
+ * Modification will be needed if this class is to be used in a different 
+ * project. SidePanel will be implemented in CENTER rectMode. 
+ *
+ * @author Huu Le and Jennifer Nguyen
+ * @version May 2015
  */
  
 class SidePanel {

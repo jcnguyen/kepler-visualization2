@@ -1,6 +1,10 @@
-/*
+/**
  * ModeButton.pde
- *   Specific type of button used to switch between modes.
+ * 
+ * Specific type of button used to switch between modes.
+ *
+ * @author Huu Le and Jennifer Nguyen
+ * @version May 2015
  */
 
 class ModeButton extends Button {

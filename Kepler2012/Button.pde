@@ -1,6 +1,10 @@
-/*
+/**
  * Button.pde
- *   Simple buttons class. 
+ * 
+ * Simple buttons class. 
+ *
+ * @author Huu Le and Jennifer Nguyen
+ * @version May 2015
  */
 
 class Button {

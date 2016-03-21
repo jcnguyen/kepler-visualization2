@@ -1,26 +1,21 @@
-/*
-
- Kepler Visualization
- 2011 - new data added in 2012
- blprnt@blprnt.com
- You can toggle between view modes with the keys 4,3,2,1,`
- 
- @ASTR051 Squirtle Squad
- @May 2015
- Visualization of Kepler candidates identified from 2011 to 2015. 
- The displayed data is limited to exoplanets with less than 100 
- earth radii. 
- 
- https://github.com/jcnguyen/kepler-visualization2
- * @author Jennifer Nguyen
- * @version February 2016
+/**
+ * Kepler2012.pde
+ *
+ * Visualization of Kepler candidates identified from 2011 to 2015. 
+ * The displayed data is limited to exoplanets with less than 100 
+ * earth radii.
+ *
+ * This project is an extension of Jer Thorp's original project 
+ * (blprnt@blprnt.com). Both the data set and the user interface has been 
+ * extended. The 'e' key contains an easter egg. 
  *
  * @author Huu Le and Jennifer Nguyen
  * @version May 2015
- 
+ *
+ * @author Jer Thorp
+ * @version April 2012
  */
 
-// Import libraries
 import processing.opengl.*;
 
 // Display size

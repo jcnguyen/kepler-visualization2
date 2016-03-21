@@ -1,6 +1,10 @@
-/*
+/**
  * CloseBox.pde
- *   Specific type of button used to exit. 
+ * 
+ * Specific type of button used to exit. 
+ *
+ * @author Huu Le and Jennifer Nguyen
+ * @version May 2015
  */
 
 class CloseBox extends Button {
