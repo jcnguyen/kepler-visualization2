@@ -1,6 +1,6 @@
 # Kepler Visualization
 
-A visualization of the Kepler exoplanets from 2011 to 2015. [Original project](blog.blprnt.com/blog/blprnt/data-in-an-alien-context-kepler-visualization-source-code) by [Jer Thorp](blprnt@blprnt.com).
+A visualization of the Kepler exoplanets from 2011 to 2015. [Original project](http://blog.blprnt.com/blog/blprnt/data-in-an-alien-context-kepler-visualization-source-code) by [Jer Thorp](http://blog.blprnt.com).
 
 ## Running
 1. Download [Processing](http://processing.org).
